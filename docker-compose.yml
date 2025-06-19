@@ -1,0 +1,8 @@
+services:
+  stocksentimentdashboard:
+    image: stocksentimentdashboard
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5002:5002
